@@ -1,0 +1,48 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "name": "SKILL-NAME",
+          "summary": "SKILL-SUMMARY",
+          "examplePhrases": [
+            "EXAMPLE-PHRASE"
+          ],
+          "keywords": [
+            "KEYWORD"
+          ],
+          "description": "DESCRIPTION",
+          "smallIconUri": "SMALL-ICON-URL",
+          "largeIconUri": "LARGE-ICON-URL"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Nothing to do.",
+      "category": "CATEGORY",
+      "distributionCountries": [
+        "JP"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-app"
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "ja-JP": {
+          "privacyPolicyUrl": "PRIVACY-POLICY-URL"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

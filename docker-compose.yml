@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  ask-app:
+    build: .
+    env_file:
+      - .env
+    privileged: true
+    volumes:
+      - .ask:/home/node/.ask
+      - .aws:/home/node/.aws
+      - ./app:/home/node/app:Z

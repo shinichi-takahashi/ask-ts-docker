@@ -1,0 +1,11 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "YOUR-INVOCATION-NAME",
+      "types": [
+      ],
+      "intents": [
+      ]
+    }
+  }
+}
